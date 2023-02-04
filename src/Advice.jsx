@@ -28,9 +28,9 @@ useEffect(()=> {
   return (
     <Section>
         <Box> 
-            <P>A D V I C E # {advice.id}</P>
+            <P>A D V I C E # {advice?.id}</P>
 
-            <H2> " {advice.advice} "</H2>
+            <H2> " {advice?.advice} "</H2>
             <DividerMob src={divider2} alt="" />
 
             <Divider src={divider} alt="" />
